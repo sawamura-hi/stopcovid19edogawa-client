@@ -1,0 +1,532 @@
+
+{
+  "header": {
+    "reportVersion": 1,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20200426.225953.21612.0.001.json",
+    "dumpEventTime": "2020-04-26T22:59:53Z",
+    "dumpEventTimeStamp": "1587909593330",
+    "processId": 21612,
+    "cwd": "C:\\Users\\hiro8\\Desktop\\stopcovid19inEdogawa\\covid19",
+    "commandLine": [
+      "C:\\Program Files (x86)\\Nodist\\v-x64\\12.13.1\\node.exe",
+      "C:\\Users\\hiro8\\Desktop\\stopcovid19inEdogawa\\covid19\\node_modules\\.bin\\\\..\\@nuxt\\typescript-runtime\\bin\\nuxt-ts.js"
+    ],
+    "nodejsVersion": "v12.13.1",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "win32",
+    "componentVersions": {
+      "node": "12.13.1",
+      "v8": "7.7.299.13-node.16",
+      "uv": "1.33.1",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.15.0",
+      "modules": "72",
+      "nghttp2": "1.39.2",
+      "napi": "5",
+      "llhttp": "1.1.4",
+      "http_parser": "2.8.0",
+      "openssl": "1.1.1d",
+      "cldr": "35.1",
+      "icu": "64.2",
+      "tz": "2019c",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "lts": "Erbium",
+      "headersUrl": "https://nodejs.org/download/release/v12.13.1/node-v12.13.1-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v12.13.1/node-v12.13.1.tar.gz",
+      "libUrl": "https://nodejs.org/download/release/v12.13.1/win-x64/node.lib"
+    },
+    "osName": "Windows_NT",
+    "osRelease": "10.0.19041",
+    "osVersion": "Windows 10 Pro",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "Intel(R) Core(TM) i7-4790T CPU @ 2.70GHz",
+        "speed": 2694,
+        "user": 16012625,
+        "nice": 0,
+        "sys": 48074218,
+        "idle": 143859328,
+        "irq": 3296343
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-4790T CPU @ 2.70GHz",
+        "speed": 2694,
+        "user": 12338593,
+        "nice": 0,
+        "sys": 27284031,
+        "idle": 168323171,
+        "irq": 247718
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-4790T CPU @ 2.70GHz",
+        "speed": 2694,
+        "user": 23171718,
+        "nice": 0,
+        "sys": 38961984,
+        "idle": 145812093,
+        "irq": 576734
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-4790T CPU @ 2.70GHz",
+        "speed": 2694,
+        "user": 12583218,
+        "nice": 0,
+        "sys": 27977343,
+        "idle": 167385234,
+        "irq": 213703
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-4790T CPU @ 2.70GHz",
+        "speed": 2694,
+        "user": 16285390,
+        "nice": 0,
+        "sys": 35502859,
+        "idle": 156157531,
+        "irq": 348984
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-4790T CPU @ 2.70GHz",
+        "speed": 2694,
+        "user": 13724078,
+        "nice": 0,
+        "sys": 39708296,
+        "idle": 154513406,
+        "irq": 243062
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-4790T CPU @ 2.70GHz",
+        "speed": 2694,
+        "user": 16816265,
+        "nice": 0,
+        "sys": 34881359,
+        "idle": 156248156,
+        "irq": 290328
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-4790T CPU @ 2.70GHz",
+        "speed": 2694,
+        "user": 17196937,
+        "nice": 0,
+        "sys": 37881156,
+        "idle": 152867687,
+        "irq": 177437
+      }
+    ],
+    "networkInterfaces": [
+      {
+        "name": "vEthernet (Default Switch)",
+        "internal": false,
+        "mac": "00:15:5d:05:de:22",
+        "address": "fe80::d523:b516:8ed0:4e36",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 41
+      },
+      {
+        "name": "vEthernet (Default Switch)",
+        "internal": false,
+        "mac": "00:15:5d:05:de:22",
+        "address": "192.168.160.1",
+        "netmask": "255.255.240.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "Wi-Fi",
+        "internal": false,
+        "mac": "ac:e0:10:d5:b9:86",
+        "address": "fe80::2c90:ade2:7a7e:7a46",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 22
+      },
+      {
+        "name": "Wi-Fi",
+        "internal": false,
+        "mac": "ac:e0:10:d5:b9:86",
+        "address": "192.168.2.111",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      }
+    ],
+    "host": "DESKTOP-R7LN3LS"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+    {
+      "pc": "0x00007ff744261729",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+10873"
+    },
+    {
+      "pc": "0x00007ff744265b4c",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+28316"
+    },
+    {
+      "pc": "0x00007ff744264b08",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+24152"
+    },
+    {
+      "pc": "0x00007ff74435369b",
+      "symbol": "v8::base::CPU::has_sse+37723"
+    },
+    {
+      "pc": "0x00007ff744b582de",
+      "symbol": "v8::Isolate::ReportExternalAllocationLimitReached+94"
+    },
+    {
+      "pc": "0x00007ff744b40321",
+      "symbol": "v8::SharedArrayBuffer::Externalize+833"
+    },
+    {
+      "pc": "0x00007ff744a0dbec",
+      "symbol": "v8::internal::Heap::EphemeronKeyWriteBarrierFromCode+1436"
+    },
+    {
+      "pc": "0x00007ff744a18f90",
+      "symbol": "v8::internal::Heap::ProtectUnprotectedMemoryChunks+1312"
+    },
+    {
+      "pc": "0x00007ff744a15ac4",
+      "symbol": "v8::internal::Heap::PageFlagsAreConsistent+3204"
+    },
+    {
+      "pc": "0x00007ff744a0b353",
+      "symbol": "v8::internal::Heap::CollectGarbage+1283"
+    },
+    {
+      "pc": "0x00007ff744a09b24",
+      "symbol": "v8::internal::Heap::AddRetainedMap+2356"
+    },
+    {
+      "pc": "0x00007ff744a2adf5",
+      "symbol": "v8::internal::Factory::NewFillerObject+53"
+    },
+    {
+      "pc": "0x00007ff744796e19",
+      "symbol": "v8::internal::interpreter::JumpTableTargetOffsets::iterator::operator=+4057"
+    },
+    {
+      "pc": "0x00007ff744f8404d",
+      "symbol": "v8::internal::SetupIsolateDelegate::SetupHeap+567949"
+    },
+    {
+      "pc": "0x00007ff744f60f60",
+      "symbol": "v8::internal::SetupIsolateDelegate::SetupHeap+424352"
+    },
+    {
+      "pc": "0x00007ff744f6f331",
+      "symbol": "v8::internal::SetupIsolateDelegate::SetupHeap+482673"
+    },
+    {
+      "pc": "0x000002fb7e9b2c6c",
+      "symbol": ""
+    }
+  ],
+  "javascriptHeap": {
+    "totalMemory": 2154180608,
+    "totalCommittedMemory": 2154180608,
+    "usedMemory": 2129469512,
+    "availableMemory": 47377000,
+    "memoryLimit": 2197815296,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 262144,
+        "committedMemory": 262144,
+        "capacity": 261872,
+        "used": 32296,
+        "available": 229576
+      },
+      "new_space": {
+        "memorySize": 2621440,
+        "committedMemory": 2621440,
+        "capacity": 1309360,
+        "used": 476712,
+        "available": 832648
+      },
+      "old_space": {
+        "memorySize": 1448718336,
+        "committedMemory": 1448718336,
+        "capacity": 1436580432,
+        "used": 1435209704,
+        "available": 1370728
+      },
+      "code_space": {
+        "memorySize": 8290304,
+        "committedMemory": 8290304,
+        "capacity": 7133280,
+        "used": 7133280,
+        "available": 0
+      },
+      "map_space": {
+        "memorySize": 35655680,
+        "committedMemory": 35655680,
+        "capacity": 29264640,
+        "used": 29264640,
+        "available": 0
+      },
+      "large_object_space": {
+        "memorySize": 657088512,
+        "committedMemory": 657088512,
+        "capacity": 655927600,
+        "used": 655927600,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 1544192,
+        "committedMemory": 1544192,
+        "capacity": 1425280,
+        "used": 1425280,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 1309360,
+        "used": 0,
+        "available": 1309360
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 12028,
+    "kernelCpuSeconds": 59831.3,
+    "cpuConsumptionPercent": 211.084,
+    "maxRss": 2134499328,
+    "pageFaults": {
+      "IORequired": 16017330,
+      "IONotRequired": 0
+    },
+    "fsActivity": {
+      "reads": 191794,
+      "writes": 206
+    }
+  },
+  "libuv": [
+  ],
+  "environmentVariables": {
+    "=C:": "C:\\Users\\hiro8\\Desktop\\stopcovid19inEdogawa\\covid19",
+    "ALLUSERSPROFILE": "C:\\ProgramData",
+    "APPDATA": "C:\\Users\\hiro8\\AppData\\Roaming",
+    "CommonProgramFiles": "C:\\Program Files\\Common Files",
+    "CommonProgramFiles(x86)": "C:\\Program Files (x86)\\Common Files",
+    "CommonProgramW6432": "C:\\Program Files\\Common Files",
+    "COMPUTERNAME": "DESKTOP-R7LN3LS",
+    "ComSpec": "C:\\WINDOWS\\system32\\cmd.exe",
+    "dp0": "C:\\Program Files (x86)\\Nodist\\bin\\",
+    "DriverData": "C:\\Windows\\System32\\Drivers\\DriverData",
+    "ELECTRON_CRASHPAD_PIPE_NAME": "\\\\.\\pipe\\crashpad_12932_LSYZLRYTJQNDIRWV",
+    "GENERATE_ENV": "development",
+    "HOMEDRIVE": "C:",
+    "HOMEPATH": "\\Users\\hiro8",
+    "INIT_CWD": "C:\\Users\\hiro8\\Desktop\\stopcovid19inEdogawa\\covid19",
+    "INTEL_DEV_REDIST": "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\",
+    "LOCALAPPDATA": "C:\\Users\\hiro8\\AppData\\Local",
+    "LOGONSERVER": "\\\\DESKTOP-R7LN3LS",
+    "MIC_LD_LIBRARY_PATH": "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\compiler\\lib\\mic",
+    "NODE": "C:\\Program Files (x86)\\Nodist\\v-x64\\12.13.1\\node.exe",
+    "NODE_ENV": "dev-no-axe",
+    "NODE_PATH": "C:\\Program Files (x86)\\Nodist\\bin\\node_modules;%NODE_PATH%",
+    "NODIST_PREFIX": "C:\\Program Files (x86)\\Nodist",
+    "NODIST_X64": "1",
+    "npm_config_argv": "{\"remain\":[],\"cooked\":[\"run\",\"dev-no-axe\"],\"original\":[\"dev-no-axe\"]}",
+    "npm_config_bin_links": "true",
+    "npm_config_ignore_optional": "",
+    "npm_config_ignore_scripts": "",
+    "npm_config_init_license": "MIT",
+    "npm_config_init_version": "1.0.0",
+    "npm_config_network_timeout": "1200000",
+    "npm_config_prefix": "C:\\Program Files (x86)\\Nodist/bin",
+    "npm_config_registry": "https://registry.yarnpkg.com",
+    "npm_config_save_prefix": "^",
+    "npm_config_strict_ssl": "true",
+    "npm_config_user_agent": "yarn/1.22.4 npm/? node/v12.13.1 win32 x64",
+    "npm_config_version_commit_hooks": "true",
+    "npm_config_version_git_message": "v%s",
+    "npm_config_version_git_sign": "",
+    "npm_config_version_git_tag": "true",
+    "npm_config_version_tag_prefix": "v",
+    "npm_execpath": "C:\\Program Files (x86)\\Nodist\\bin\\node_modules\\yarn\\bin\\yarn.js",
+    "npm_lifecycle_event": "dev-no-axe",
+    "npm_lifecycle_script": "cross-env NODE_ENV=dev-no-axe GENERATE_ENV=development nuxt-ts",
+    "npm_node_execpath": "C:\\Program Files (x86)\\Nodist\\v-x64\\12.13.1\\node.exe",
+    "npm_package_author_name": "東京都",
+    "npm_package_config_nuxt_host": "0.0.0.0",
+    "npm_package_config_nuxt_port": "3333",
+    "npm_package_dependencies_chart_js": "^2.9.3",
+    "npm_package_dependencies_cross_env": "^5.2.0",
+    "npm_package_dependencies_dayjs": "^1.8.21",
+    "npm_package_dependencies_express": "^4.16.4",
+    "npm_package_dependencies_mapbox_gl": "^1.8.1",
+    "npm_package_dependencies_mapbox_gl_vue": "^2.0.4",
+    "npm_package_dependencies_nuxt": "^2.11.0",
+    "npm_package_dependencies_nuxt_i18n": "^6.8.1",
+    "npm_package_dependencies_vue_chartjs": "^3.5.0",
+    "npm_package_dependencies_vue_scrollto": "^2.17.1",
+    "npm_package_dependencies_vue_spinner": "^1.0.3",
+    "npm_package_dependencies__nuxtjs_dotenv": "^1.4.0",
+    "npm_package_dependencies__nuxtjs_pwa": "^3.0.0-0",
+    "npm_package_dependencies__nuxt_typescript_runtime": "^0.4.0",
+    "npm_package_dependencies__types_d3": "^5.7.2",
+    "npm_package_dependencies__types_mapbox_gl": "^1.8.0",
+    "npm_package_description": "江戸川区 新型コロナウイルス感染症対策サイト",
+    "npm_package_devDependencies_babel_jest": "^24.1.0",
+    "npm_package_devDependencies_eslint": "^6.8.0",
+    "npm_package_devDependencies_eslint_config_prettier": "^6.10.0",
+    "npm_package_devDependencies_eslint_plugin_prettier": "^3.1.2",
+    "npm_package_devDependencies_eslint_plugin_tsdoc": "^0.2.3",
+    "npm_package_devDependencies_husky": "^4.2.3",
+    "npm_package_devDependencies_jest": "^24.1.0",
+    "npm_package_devDependencies_lint_staged": "^10.0.8",
+    "npm_package_devDependencies_nodemon": "^1.18.9",
+    "npm_package_devDependencies_nuxt_purgecss": "^0.2.1",
+    "npm_package_devDependencies_nuxt_svg_loader": "^1.2.0",
+    "npm_package_devDependencies_prettier": "^1.19.1",
+    "npm_package_devDependencies_rimraf": "^3.0.2",
+    "npm_package_devDependencies_stylelint": "^13.2.0",
+    "npm_package_devDependencies_stylelint_config_prettier": "^8.0.1",
+    "npm_package_devDependencies_stylelint_config_standard": "^20.0.0",
+    "npm_package_devDependencies_stylelint_scss": "^3.15.0",
+    "npm_package_devDependencies_vue_axe": "^1.0.8",
+    "npm_package_devDependencies_vue_jest": "^4.0.0-0",
+    "npm_package_devDependencies__fullhuman_postcss_purgecss": "^2.1.0",
+    "npm_package_devDependencies__mdi_font": "^5.0.45",
+    "npm_package_devDependencies__nuxtjs_eslint_config_typescript": "^1.0.2",
+    "npm_package_devDependencies__nuxtjs_google_analytics": "^2.2.3",
+    "npm_package_devDependencies__nuxtjs_stylelint_module": "^3.2.2",
+    "npm_package_devDependencies__nuxtjs_vuetify": "^1.0.0",
+    "npm_package_devDependencies__nuxt_typescript_build": "^0.6.0",
+    "npm_package_devDependencies__types_chart_js": "^2.9.14",
+    "npm_package_devDependencies__vue_test_utils": "^1.0.0-beta.27",
+    "npm_package_engines_node": ">=10.19.0",
+    "npm_package_husky_hooks_pre_commit": "./pre-commit.sh && lint-staged",
+    "npm_package_license": "MIT",
+    "npm_package_lint_staged____css_scss_vue_": "stylelint",
+    "npm_package_lint_staged____js_ts_css_vue__0": "eslint --fix",
+    "npm_package_name": "covid19",
+    "npm_package_private": "true",
+    "npm_package_readmeFilename": "README.md",
+    "npm_package_scripts_build": "nuxt-ts build",
+    "npm_package_scripts_clean_hardsource": "rimraf ./node_modules/.cache/hard-source",
+    "npm_package_scripts_dev": "cross-env NODE_ENV=development GENERATE_ENV=development nuxt-ts",
+    "npm_package_scripts_dev_no_axe": "cross-env NODE_ENV=dev-no-axe GENERATE_ENV=development nuxt-ts",
+    "npm_package_scripts_generate": "eslint './**/*.{js,ts,vue}' && nuxt-ts generate",
+    "npm_package_scripts_generate_deploy": "cross-env GENERATE_ENV=production nuxt-ts generate",
+    "npm_package_scripts_generate_dev": "cross-env GENERATE_ENV=development nuxt-ts generate",
+    "npm_package_scripts_lint": "eslint './**/*.{js,ts,vue}'",
+    "npm_package_scripts_lint_and_generate": "eslint './**/*.{js,ts,vue}' && nuxt-ts generate",
+    "npm_package_scripts_lint_fix": "eslint './**/*.{js,ts,vue}' --fix",
+    "npm_package_scripts_start": "cross-env NODE_ENV=production nuxt-ts start",
+    "npm_package_scripts_stylelint": "stylelint '**/*.{css,scss,vue}'",
+    "npm_package_scripts_stylelint_fix": "stylelint --fix '**/*.{css,scss,vue}'",
+    "npm_package_scripts_test": "echo 'skip tests (there is no test)'",
+    "npm_package_version": "1.0.0",
+    "NUMBER_OF_PROCESSORS": "8",
+    "OneDrive": "C:\\Users\\hiro8\\OneDrive",
+    "OneDriveConsumer": "C:\\Users\\hiro8\\OneDrive",
+    "OS": "Windows_NT",
+    "Path": "C:\\Users\\hiro8\\AppData\\Local\\Temp\\yarn--1587875550044-0.40338140363778496;C:\\Users\\hiro8\\Desktop\\stopcovid19inEdogawa\\covid19\\node_modules\\.bin;C:\\Users\\hiro8\\AppData\\Local\\Yarn\\Data\\link\\node_modules\\.bin;C:\\Program Files (x86)\\Nodist\\bin\\bin;C:\\Program Files (x86)\\Nodist\\v-x64\\libexec\\lib\\node_modules\\npm\\bin\\node-gyp-bin;C:\\Program Files (x86)\\Nodist\\v-x64\\lib\\node_modules\\npm\\bin\\node-gyp-bin;C:\\Program Files (x86)\\Nodist\\v-x64\\12.13.1\\node_modules\\npm\\bin\\node-gyp-bin;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Myfolder\\command;C:\\Program Files\\Git\\cmd;C:\\Program Files (x86)\\Nodist\\bin;C:\\Program Files\\nodejs\\;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\ProgramData\\DockerDesktop\\version-bin;C:\\Users\\hiro8\\AppData\\Local\\Programs\\Python\\Python38\\Scripts\\;C:\\Users\\hiro8\\AppData\\Local\\Programs\\Python\\Python38\\;C:\\Users\\hiro8\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Users\\hiro8\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\hiro8\\AppData\\Roaming\\npm",
+    "PATHEXT": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JSE;.WSF;.WSH;.MSC",
+    "PROCESSOR_ARCHITECTURE": "AMD64",
+    "PROCESSOR_IDENTIFIER": "Intel64 Family 6 Model 60 Stepping 3, GenuineIntel",
+    "PROCESSOR_LEVEL": "6",
+    "PROCESSOR_REVISION": "3c03",
+    "ProgramData": "C:\\ProgramData",
+    "ProgramFiles": "C:\\Program Files",
+    "ProgramFiles(x86)": "C:\\Program Files (x86)",
+    "ProgramW6432": "C:\\Program Files",
+    "PROMPT": "$P$G",
+    "PSModulePath": "C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules",
+    "PUBLIC": "C:\\Users\\Public",
+    "SESSIONNAME": "Console",
+    "SystemDrive": "C:",
+    "SystemRoot": "C:\\WINDOWS",
+    "TEMP": "C:\\Users\\hiro8\\AppData\\Local\\Temp",
+    "TMP": "C:\\Users\\hiro8\\AppData\\Local\\Temp",
+    "USERDOMAIN": "DESKTOP-R7LN3LS",
+    "USERDOMAIN_ROAMINGPROFILE": "DESKTOP-R7LN3LS",
+    "USERNAME": "hiro8",
+    "USERPROFILE": "C:\\Users\\hiro8",
+    "VSCODE_CWD": "C:\\Users\\hiro8\\AppData\\Local\\Programs\\Microsoft VS Code",
+    "VSCODE_IPC_HOOK": "\\\\.\\pipe\\7eddb68a82db047bfebeae1266b528ce-1.44.2-main-sock",
+    "VSCODE_LOGS": "C:\\Users\\hiro8\\AppData\\Roaming\\Code\\logs\\20200424T221020",
+    "VSCODE_NLS_CONFIG": "{\"locale\":\"ja\",\"availableLanguages\":{},\"_languagePackSupport\":true}",
+    "VSCODE_NODE_CACHED_DATA_DIR": "C:\\Users\\hiro8\\AppData\\Roaming\\Code\\CachedData\\ff915844119ce9485abfe8aa9076ec76b5300ddd",
+    "VSCODE_PID": "12932",
+    "VUE_ENV": "server",
+    "windir": "C:\\WINDOWS",
+    "YARN_WRAP_OUTPUT": "false",
+    "_prog": "C:\\Program Files (x86)\\Nodist\\bin\\\\node.exe"
+  },
+  "sharedObjects": [
+    "C:\\Program Files (x86)\\Nodist\\v-x64\\12.13.1\\node.exe",
+    "C:\\WINDOWS\\SYSTEM32\\ntdll.dll",
+    "C:\\WINDOWS\\System32\\KERNEL32.DLL",
+    "C:\\WINDOWS\\System32\\KERNELBASE.dll",
+    "C:\\WINDOWS\\System32\\WS2_32.dll",
+    "C:\\WINDOWS\\System32\\RPCRT4.dll",
+    "C:\\WINDOWS\\SYSTEM32\\dbghelp.dll",
+    "C:\\WINDOWS\\System32\\ucrtbase.dll",
+    "C:\\WINDOWS\\System32\\ADVAPI32.dll",
+    "C:\\WINDOWS\\System32\\msvcrt.dll",
+    "C:\\WINDOWS\\System32\\sechost.dll",
+    "C:\\WINDOWS\\System32\\USER32.dll",
+    "C:\\WINDOWS\\System32\\win32u.dll",
+    "C:\\WINDOWS\\System32\\GDI32.dll",
+    "C:\\WINDOWS\\System32\\gdi32full.dll",
+    "C:\\WINDOWS\\System32\\msvcp_win.dll",
+    "C:\\WINDOWS\\System32\\PSAPI.DLL",
+    "C:\\WINDOWS\\System32\\CRYPT32.dll",
+    "C:\\WINDOWS\\SYSTEM32\\IPHLPAPI.DLL",
+    "C:\\WINDOWS\\System32\\bcrypt.dll",
+    "C:\\WINDOWS\\SYSTEM32\\USERENV.dll",
+    "C:\\WINDOWS\\SYSTEM32\\WINMM.dll",
+    "C:\\WINDOWS\\System32\\IMM32.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\powrprof.dll",
+    "C:\\WINDOWS\\SYSTEM32\\UMPDC.dll",
+    "C:\\WINDOWS\\SYSTEM32\\CRYPTBASE.DLL",
+    "C:\\WINDOWS\\system32\\uxtheme.dll",
+    "C:\\WINDOWS\\System32\\combase.dll",
+    "C:\\WINDOWS\\system32\\mswsock.dll",
+    "C:\\WINDOWS\\SYSTEM32\\kernel.appcore.dll",
+    "C:\\WINDOWS\\System32\\bcryptprimitives.dll",
+    "C:\\WINDOWS\\System32\\NSI.dll",
+    "C:\\WINDOWS\\SYSTEM32\\dhcpcsvc6.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\dhcpcsvc.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\DNSAPI.dll",
+    "C:\\WINDOWS\\system32\\napinsp.dll",
+    "C:\\WINDOWS\\system32\\pnrpnsp.dll",
+    "C:\\WINDOWS\\system32\\wshbth.dll",
+    "C:\\WINDOWS\\system32\\NLAapi.dll",
+    "C:\\WINDOWS\\System32\\winrnr.dll",
+    "\\\\?\\C:\\Users\\hiro8\\Desktop\\stopcovid19inEdogawa\\covid19\\node_modules\\fibers\\bin\\win32-x64-72\\fibers.node"
+  ]
+}
