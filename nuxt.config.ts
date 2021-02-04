@@ -125,6 +125,9 @@ const config: Configuration = {
       cookies: ['i18n_redirected']
     }
   ],
+  purgeCSS: {
+    mode: 'postcss'
+  },
   build: {
     plugins: [
       new webpack.ProvidePlugin({
