@@ -18,7 +18,7 @@
       <template v-slot:body="{ items }">
         <tbody>
           <tr v-for="item in items" :key="item.text">
-            <th class="text-start">{{ item['公表日'] }}</th>
+            <!-- <th class="text-start">{{ item['公表日'] }}</th> -->
             <td class="text-start">{{ item['年代'] }}</td>
             <td class="text-start">{{ item['性別'] }}</td>
             <td class="text-start">{{ item['発症日'] }}</td>
@@ -115,10 +115,9 @@
 import Vue from 'vue'
 import DataView from '@/components/DataView.vue'
 import DataViewBasicInfoPanel from '@/components/DataViewBasicInfoPanel.vue'
-import OpenDataLink from '@/components/OpenDataLink.vue'
 
 export default Vue.extend({
-  components: { DataView, DataViewBasicInfoPanel, OpenDataLink },
+  components: { DataView, DataViewBasicInfoPanel },
   props: {
     title: {
       type: String,

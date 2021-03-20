@@ -1,7 +1,7 @@
 import dayjs from 'dayjs'
 
 const headers = [
-  { text: '公表日', value: '公表日' },
+  // { text: '公表日', value: '公表日' },
   { text: '年代', value: '年代' },
   { text: '性別', value: '性別' },
   { text: '発症日', value: '発症日' },
